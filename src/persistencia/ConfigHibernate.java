@@ -15,7 +15,7 @@ public class ConfigHibernate {
 
         try {
             AnnotationConfiguration config = new AnnotationConfiguration();
-            config.setProperty("hibernate.connection.url", "jdbc:mysql://localhost:3306/ormfactura");
+            config.setProperty("hibernate.connection.url", "jdbc:mysql://localhost:3306/hospital");
             config.setProperty("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
             config.setProperty("hibernate.connection.username", "root");
             config.setProperty("hibernate.connection.password", "mysql");

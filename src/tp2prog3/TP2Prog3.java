@@ -26,7 +26,7 @@ public class TP2Prog3 {
             List<DetalleHistoriaClinica> detallesHistoriaClinica = new ArrayList<DetalleHistoriaClinica>();
 
             detalleHistoriaClinica.setDiagnostico("Gripe");
-            detalleHistoriaClinica.setFechaAtencion(new Date(2021, 8, 29));
+            detalleHistoriaClinica.setFechaAtencion(new Date(2021 - 1900, 8, 29));
             detalleHistoriaClinica.setIdDetalleHC(1);
             detalleHistoriaClinica.setObservaciones("Caso leve");
             detalleHistoriaClinica.setSintomas("estornudos");
@@ -40,7 +40,7 @@ public class TP2Prog3 {
             historiaClinica.setNumero(123);
             historiaClinica.setPaciente(paciente);
             
-            turno.setFecha(new Date(2021, 8, 29));
+            turno.setFecha(new Date(2021 - 1900, 8, 29));
             turno.setHora(9);
             turno.setMinutos(30);
             turno.setIdTurno(1);
